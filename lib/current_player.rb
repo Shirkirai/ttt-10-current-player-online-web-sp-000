@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def turn_count(board)
   turn = 0
   board.each do |player|
@@ -14,4 +15,10 @@ def current_player(board)
   else
     "O"
   end
+=======
+def turn_count(board = [" ", " ", " ", " ", " ", " ", " ", " ", " "])
+  turn_count.each do |board|
+  end
+  turn_count(board)
+>>>>>>> f7f835c35a72da696b425a3034261575e8d3e1b6
 end
